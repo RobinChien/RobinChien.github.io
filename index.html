@@ -1,1 +1,100 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kuan Chen Chien Portfolio</title>
+
+        <!--
+          - google font link
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <main>
+            <!--
+              - #SIDEBAR
+            -->
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <!-- <img src="./assets/images/my-avatar.png" alt="Robin Chien" width="80" /> -->
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name" title="Kuan-Chen Chien">Kuan-Chen Chien (Robin)</h1>
+
+                        <p class="title">Software developer</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a href="mailto:goodnana1224@gmail.com" class="contact-link">goodnana1224@gmail.com</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+
+                                <a href="tel:+886928424677" class="contact-link">+(886) 928424677</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Birthday</p>
+
+                                <time datetime="1996-12-24">Dec 24, 1996</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+
+                                <address>Taiwan</address>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    </body>
+</html>
